@@ -10,7 +10,8 @@ public class Gyakorlas {
     
     public static void main(String[] args) {
         //vizsgaeredmenyek();
-        homerseklet();
+        //homerseklet();
+        mozijegy();
     }
 
     public static void vizsgaeredmenyek() {
@@ -56,6 +57,19 @@ public class Gyakorlas {
         }
         else{
             System.out.println("Forro");
+        }
+    }
+    
+    public static void mozijegy(){
+        int kor = 20;
+        boolean diakig = true;
+        
+        int jegyAr = 0;
+        String jegyTipus = "";
+        
+        if (kor >= 0 && kor <= 5) {
+            jegyTipus = "Ingyenes Jegy";
+            jegyAr = 0;
         }
     }
     
